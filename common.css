@@ -1,0 +1,92 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #459451;
+    color: white;
+
+    border-radius: .5rem;
+
+    padding: 2rem 1rem;
+    margin: .5rem;
+}
+
+.container_shield {
+    width: 160px;
+    height: 160px;
+}
+
+.container_title {
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+.container_text {
+    max-width: 320px;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+
+.container_base {
+    
+}
+
+
+
+/* no data found */
+
+.no_phishing_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 120px;
+    width: 100%;
+
+    background-color: #333131;
+    color: whitesmoke;
+
+    border-radius: 12px;
+
+    margin: 1rem;
+}
+
+
+
+/* details */
+
+.phishing_details {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+
+    width: 100%;
+}
+
+.phishing_statistic_card {
+    flex: 1;
+
+    padding: .5rem;
+
+    background-color: whitesmoke;
+    color: tomato;
+
+    border-radius: 6px;
+}
+
+
