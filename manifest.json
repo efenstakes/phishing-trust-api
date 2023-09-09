@@ -1,0 +1,13 @@
+{
+  "name": "Phish Guard",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "An extension to help the world confirm whether a site is associated with phishing attacks.",
+  "action": {
+    "default_popup": "default_popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
