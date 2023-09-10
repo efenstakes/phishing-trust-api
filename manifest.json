@@ -9,5 +9,12 @@
   },
   "background": {
     "service_worker": "service_worker.js"
-  }
+  },
+  "content_scripts": [
+      {
+          "matches": ["<all_urls>"],
+          "js": [ "content_script.js" ]
+      }
+  ],
+  "permissions": [ "storage", "tabs", "scripting" ]
 }
