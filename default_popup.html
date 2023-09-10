@@ -27,61 +27,33 @@
             Phish Guard is here. We help you avoid phishing attacks on the web.
         </p>
 
-        <!-- text -->
-        <p class="container_base no_phishing_details">
-          No reports for this site.
-        </p>
+        <div class="report_form">
 
-        <!-- details -->
-        <div class="container_base phishing_details">
+          <!-- text area -->
+          <textarea
+            class="report_form_input"
+            placeholder="Any scam or phishing comment.."
+            rows="4"
+          ></textarea>
 
-          <!-- how many reports by logged in users -->
-          <div class="container_base phishing_statistic_card">
+          <!-- report -->
+          <button class="button_base report_form_button">
+            Report This Site
+          </button>
 
-            <h1 class="phishing_statistic_card__title">
-              26
-            </h1>
-
-            <p class="phishing_statistic_card__text">
-              Verified
-            </p>
-
-          </div>
-
-          <!-- how many reports by anonymous users -->
-          <div class="container_base phishing_statistic_card">
-
-            <h1 class="phishing_statistic_card__title">
-              26
-            </h1>
-
-            <p class="phishing_statistic_card__text">
-              Anonymous
-            </p>
-
-          </div>
-
-
-          <!-- total reports -->
-          <div class="container_base phishing_statistic_card">
-
-            <h1 class="phishing_statistic_card__title">
-              26
-            </h1>
-
-            <p class="phishing_statistic_card__text">
-              Total
-            </p>
-
-          </div>
-
-
-          <!-- link to see all reports in our site -->
         </div>
 
-        <button class="testb">
-          Click
+        <!-- show report form -->
+        <button class="button_base show_report_button">
+          Report This Site
         </button>
+
+        <!-- report made successfully -->
+        <div class="report_successful">
+          <p>
+            Your report has been made successfully. Thank you for making the world safer.
+          </p>
+        </div>
 
     </div>
 
